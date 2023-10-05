@@ -1,0 +1,69 @@
+a = 'I like to '
+b = 'eat eat eat '
+c = 'apples '
+d = 'and '
+e = 'bananas.'
+
+song = a + b + c + d + e
+print(song)
+
+#a
+b = b.replace('ea', 'ay')
+c = c.replace('a', 'ay')
+e = e.replace('a', 'ay')
+
+song = a + b + c + d + e
+print(song)
+a = 'I like to '
+b = 'eat eat eat '
+c = 'apples '
+d = 'and '
+e = 'bananas.'
+
+#e
+b = b.replace('e', 'e')
+c = c.replace('a', 'e')
+e = e.replace('a', 'e')
+
+song = a + b + c + d + e
+print(song)
+
+a = 'I like to '
+b = 'eat eat eat '
+c = 'apples '
+d = 'and '
+e = 'bananas.'
+
+#i
+b = b.replace('ea', 'i')
+c = c.replace('a', 'i')
+e = e.replace('a', 'i')
+
+song = a + b + c + d + e
+print(song)
+a = 'I like to '
+b = 'eat eat eat '
+c = 'apples '
+d = 'and '
+e = 'bananas.'
+
+#o
+b = b.replace('e', 'o')
+c = c.replace('a', 'o')
+e = e.replace('a', 'o')
+
+song = a + b + c + d + e
+print(song)
+a = 'I like to '
+b = 'eat eat eat '
+c = 'apples '
+d = 'and '
+e = 'bananas.'
+
+#u
+b = b.replace('ea', 'u')
+c = c.replace('a', 'u')
+e = e.replace('a', 'u')
+
+song = a + b + c + d + e
+print(song)
